@@ -33,6 +33,7 @@ public class FormCadastro extends AppCompatActivity {
         btn = findViewById(R.id.bt_nv_user);
 
         btn.setBackgroundTintList(null);
+        photo = findViewById(R.id.imageView);
 
         if (ActivityCompat.checkSelfPermission(FormCadastro.this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
 
