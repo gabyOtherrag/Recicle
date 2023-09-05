@@ -6,36 +6,52 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".FormCadastro">
-
     <TextView
         android:id="@+id/title_cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="@string/title_cadastro"
-        android:textSize="50sp"
         android:textColor="@color/white"
+        android:textSize="50sp"
         android:textStyle="bold"
-        android:layout_marginTop="100dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/containercomponents"
-       style="@style/containercomponents"
-        app:layout_constraintTop_toBottomOf="@id/title_cadastro"
+        style="@style/containercomponents"
+        android:layout_width="357dp"
+        android:layout_height="416dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/title_cadastro" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/containercomponents"
+        app:srcCompat="@drawable/baseline_add_a_photo_24"/>
+
 
 
     <EditText
         android:id="@+id/edit_nome"
         style="@style/Edit_Text"
+        android:drawableRight="@drawable/baseline_person_outline_24"
         android:hint="Nome"
         android:inputType="text"
-        app:layout_constraintTop_toTopOf="@id/containercomponents"
-        app:layout_constraintStart_toStartOf="@id/containercomponents"
-        app:layout_constraintEnd_toEndOf="@id/containercomponents"/>
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
 
 
     <EditText
