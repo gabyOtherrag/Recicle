@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792460808902",
+    "project_id": "recicle-cb101",
+    "storage_bucket": "recicle-cb101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792460808902:android:89275ca0efcc9e421b3dc7",
+        "android_client_info": {
+          "package_name": "com.example.recicle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDle8SX4HLTLbhlbyFg7CLvSPkgn4jg8Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
