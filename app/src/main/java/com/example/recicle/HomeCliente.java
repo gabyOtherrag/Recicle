@@ -58,10 +58,10 @@ public class HomeCliente extends AppCompatActivity {
         api.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(HomeCliente.this, ViewAPI.class);
-//                intent.putExtra("usuario", usuario);
-//                startActivity(intent);
-//                finish();
+                Intent intent = new Intent(HomeCliente.this, ViewAPI.class);
+                intent.putExtra("usuario", usuario);
+                startActivity(intent);
+                finish();
             }
         });
 
